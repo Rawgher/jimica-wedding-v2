@@ -377,6 +377,15 @@ a:focus {
   height: 100vh;
 }
 
+.next-section {
+  position: absolute;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  /* bottom: 3%; */
+  bottom: 0%;
+}
+
 @media (max-width: 1023px) {
   .flex {
     display: block;
@@ -632,4 +641,11 @@ header {
   background-image: url(../images/JimProposingBW.jpg);
   background-repeat: no-repeat;
   background-position: center;
+}
+
+/* |||||||||| Ceremony Page ||||||||||| */
+
+.wedding-party-img {
+  border-radius: 50%;
+  width: 120px;
 }
