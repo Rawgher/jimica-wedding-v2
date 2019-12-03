@@ -314,6 +314,14 @@ a:focus {
   padding-top: 25px;
 }
 
+.p-top-one-hundo {
+  padding-top: 100px;
+}
+
+.p-top-one-eighty {
+  padding-top: 180px;
+}
+
 .center-txt {
   text-align: center;
 }
@@ -395,7 +403,7 @@ a:focus {
 
 .next-section {
   position: absolute;
-  left: 50%;
+  left: 51.5%;
   margin-right: -50%;
   transform: translate(-50%, -50%);
   /* bottom: 3%; */
@@ -504,21 +512,33 @@ h4 {
 
 h1 {
   font-size: 65px;
+  font-weight: 500;
+  letter-spacing: 4px;
 }
 h2 {
   font-size: 45px;
+  font-weight: 500;
 }
 h3 {
   font-size: 20px;
+  font-weight: 500;
 }
 h4 {
   font-size: 25px;
+}
+
+.sub-header {
+  font-size: 30px;
 }
 
 p {
   line-height: 1.5;
   font-size: 16px;
   font-weight: 300;
+}
+
+.fs-20 {
+  font-size: 20px;
 }
 
 .italic {
@@ -691,6 +711,6 @@ header {
 }
 
 .countdown-sizing {
-  margin: 40px auto;
+  margin: 25px auto;
   width: 40%;
 }
