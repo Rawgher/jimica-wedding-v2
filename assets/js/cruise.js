@@ -28,4 +28,34 @@ $(document).ready(function() {
       $("#list-activities").css("color", "#A20519");
     }
   });
+
+  // function used to scroll down to the booking info section
+  $("#bookingButton").click(function() {
+    $("html, body").animate(
+      {
+        scrollTop: $("#bookingInfo").offset().top
+      },
+      1000
+    );
+  });
+
+  // function used to scroll down to the what to bring section
+  $("#bringButton").click(function() {
+    $("html, body").animate(
+      {
+        scrollTop: $("#whatToBring").offset().top
+      },
+      1000
+    );
+  });
+
+  // function used to scroll down to the activities section
+  $("#activityButton").click(function() {
+    $("html, body").animate(
+      {
+        scrollTop: $("#activities").offset().top
+      },
+      1000
+    );
+  });
 });

@@ -19,4 +19,24 @@ $(document).ready(function() {
       $("#list-gettingThere").css("color", "#A20519");
     }
   });
+
+  // function used to scroll down to the wedding party section
+  $("#bridalButton").click(function() {
+    $("html, body").animate(
+      {
+        scrollTop: $("#bridalParty").offset().top
+      },
+      1000
+    );
+  });
+
+  // function used to scroll down to the getting to the ceremony section
+  $("#gettingButton").click(function() {
+    $("html, body").animate(
+      {
+        scrollTop: $("#gettingThere").offset().top
+      },
+      1000
+    );
+  });
 });
