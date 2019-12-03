@@ -265,6 +265,10 @@ a:focus {
   margin-top: 0;
 }
 
+.m-bot-5 {
+  margin-bottom: 5px;
+}
+
 .m-top-10 {
   margin-top: 10px;
 }
@@ -363,7 +367,7 @@ a:focus {
 }
 
 .main-content {
-  margin-top: 175px;
+  padding-top: 150px;
 }
 
 .inner-content {
@@ -375,6 +379,14 @@ a:focus {
 
 .vh-100 {
   height: 100vh;
+}
+
+.vh-90 {
+  height: 90vh;
+}
+
+.vh-85 {
+  height: 85vh;
 }
 
 .vh-80 {
@@ -444,6 +456,10 @@ a:focus {
   background-color: #a20519;
 }
 
+.pink-bg {
+  background-color: #daa3a3;
+}
+
 .main-rgb-txt {
   color: #ff9e19;
 }
@@ -505,6 +521,9 @@ p {
   font-weight: 300;
 }
 
+.italic {
+  font-style: italic;
+}
 .uppercase {
   text-transform: uppercase;
 }
@@ -558,7 +577,8 @@ p {
   padding-left: 15px;
 }
 .btn-box {
-  padding: 20px 0;
+  padding: 5px 0;
+  margin: 0 auto;
 }
 .btn-box h3,
 .btn-box a {
@@ -613,8 +633,12 @@ header {
 
 .sub-menu-nav {
   position: fixed;
-  margin-top: -30px;
-  margin-left: -30px;
+  margin-top: 150px;
+  margin-left: -20px;
+}
+
+.sub-menu-nav li {
+  list-style-type: none;
 }
 
 /* ||||||||||||| NAVIGATION END |||||||||||| */
@@ -642,9 +666,12 @@ header {
 
 /* ||||||||||||||| Home Page ||||||||||||| */
 .background-image {
-  background-image: url(../images/JimProposingBW.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
+  background: url(../images/jim-proposing.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100vh;
 }
 
 /* |||||||||| Ceremony Page ||||||||||| */
@@ -652,4 +679,18 @@ header {
 .wedding-party-img {
   border-radius: 50%;
   width: 120px;
+}
+
+/* ||||||||||| Countdown |||||||||| */
+
+#clock {
+  font-size: 30px;
+  letter-spacing: 1.5px;
+  font-weight: 600;
+  padding: 20px 0;
+}
+
+.countdown-sizing {
+  margin: 40px auto;
+  width: 40%;
 }
