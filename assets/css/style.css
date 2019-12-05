@@ -285,6 +285,10 @@ a:focus {
   margin-bottom: 20px;
 }
 
+.m-bot-neg-30 {
+  margin-bottom: -30px;
+}
+
 .m-bot-30 {
   margin-bottom: 30px;
 }
@@ -406,7 +410,7 @@ a:focus {
   left: 50%;
   margin-right: -50%;
   transform: translate(-50%, -50%);
-  bottom: -3%;
+  bottom: -9%;
 }
 
 .next-section-home {
@@ -414,7 +418,12 @@ a:focus {
   left: 51.5%;
   margin-right: -50%;
   transform: translate(-50%, -50%);
-  bottom: 0%;
+  bottom: -8%;
+}
+
+.chevy {
+  width: 200px;
+  height: 100px;
 }
 
 @media (max-width: 1023px) {
